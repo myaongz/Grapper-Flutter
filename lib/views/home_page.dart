@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:grapper/utils/grapper_font.dart';
 import 'package:grapper/utils/grapper_icon.dart';
 
 class HomePage extends StatelessWidget {
@@ -9,9 +10,15 @@ class HomePage extends StatelessWidget {
     return const Scaffold(
       body: Column(
         children: [
-          Center(
-            child: GrapperIcon(icon: GrapperIcons.arrowUp),
+          GrapperIcon(
+            icon: GrapperIcons.arrowUp,
           ),
+          GrapperText(
+            text: 'hello world',
+            grapperFont: GrapperFonts.pretendard_700,
+            size: 30,
+            color: Colors.black,
+          )
         ],
       ),
     );
