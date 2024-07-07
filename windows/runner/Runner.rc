@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "grapper_flutter" "\0"
+            VALUE "FileDescription", "grapper" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "grapper_flutter" "\0"
+            VALUE "InternalName", "grapper" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "grapper_flutter.exe" "\0"
-            VALUE "ProductName", "grapper_flutter" "\0"
+            VALUE "OriginalFilename", "grapper.exe" "\0"
+            VALUE "ProductName", "grapper" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

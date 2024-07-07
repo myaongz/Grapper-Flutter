@@ -1,6 +1,6 @@
 {
-    "name": "grapper_flutter",
-    "short_name": "grapper_flutter",
+    "name": "grapper",
+    "short_name": "grapper",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

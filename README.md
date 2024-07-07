@@ -1,4 +1,4 @@
-# grapper_flutter
+# grapper
 
 A new Flutter project.
 

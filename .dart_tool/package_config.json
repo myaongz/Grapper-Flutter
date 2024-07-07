@@ -164,13 +164,13 @@
       "languageVersion": "3.3"
     },
     {
-      "name": "grapper_flutter",
+      "name": "grapper",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "3.3"
+      "languageVersion": "3.4"
     }
   ],
-  "generated": "2024-07-06T16:38:37.689067Z",
+  "generated": "2024-07-07T14:41:23.137811Z",
   "generator": "pub",
   "generatorVersion": "3.4.3",
   "flutterRoot": "file:///opt/homebrew/Caskroom/flutter/3.22.2/flutter",

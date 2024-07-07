@@ -1,4 +1,4 @@
-package com.example.grapper_flutter
+package com.example.grapper
 
 import io.flutter.embedding.android.FlutterActivity
 
