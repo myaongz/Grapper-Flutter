@@ -9,6 +9,7 @@ class GrapperAppbar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      decoration: const BoxDecoration(),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
@@ -19,6 +20,7 @@ class GrapperAppbar extends StatelessWidget {
             color: Colors.white,
           ),
           Container(
+            decoration: const BoxDecoration(),
             child: const Row(
               children: [
                 GrapperIcon(
