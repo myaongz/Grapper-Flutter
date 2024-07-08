@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:grapper/utils/grapper_color.dart';
 import 'package:grapper/utils/grapper_font.dart';
 import 'package:grapper/utils/grapper_icon.dart';
 
@@ -17,7 +18,7 @@ class HomePage extends StatelessWidget {
             text: 'hello world',
             grapperFont: GrapperFonts.pretendard_700,
             size: 30,
-            color: Colors.black,
+            color: GrapperColorRed.normal,
           )
         ],
       ),
