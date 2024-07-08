@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:grapper/views/recommend_page.dart';
+import 'package:grapper/views/recommend/recommend_page.dart';
 
 void main() {
   runApp(const MyApp());
