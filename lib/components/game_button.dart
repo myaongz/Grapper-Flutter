@@ -14,7 +14,7 @@ class GameButton extends StatelessWidget {
   final String gameName;
   final String price;
   final GrapperIcon icon;
-  final isDiscount;
+  final bool isDiscount;
 
   @override
   Widget build(BuildContext context) {
