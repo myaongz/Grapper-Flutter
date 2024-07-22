@@ -19,16 +19,19 @@ class GrapperText extends StatelessWidget {
     required this.grapperFont,
     required this.size,
     required this.color,
+    this.textAlign,
   });
   final String text;
   final double size;
   final String grapperFont;
   final Color color;
+  final TextAlign? textAlign;
 
   @override
   Widget build(BuildContext context) {
     return Text(
       text,
+      textAlign: textAlign,
       style: TextStyle(
         fontFamily: grapperFont,
         fontSize: size,

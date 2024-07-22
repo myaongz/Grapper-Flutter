@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:grapper/utils/grapper_color.dart';
-import 'package:grapper/utils/grapper_font.dart';
+import 'package:grapper/utils/grapper_text.dart';
 
 class GrapperHashtag extends StatelessWidget {
   const GrapperHashtag({
