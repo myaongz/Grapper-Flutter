@@ -16,9 +16,7 @@ class GrapperHashtag extends StatelessWidget {
     return Container(
       height: 30,
       alignment: Alignment.center,
-      padding: isSelected
-          ? const EdgeInsets.symmetric(horizontal: 20)
-          : const EdgeInsets.all(0),
+      padding: isSelected ? const EdgeInsets.symmetric(horizontal: 20) : const EdgeInsets.all(0),
       decoration: BoxDecoration(
         color: isSelected ? GrapperColorRed.normal : Colors.black,
         borderRadius: const BorderRadius.all(

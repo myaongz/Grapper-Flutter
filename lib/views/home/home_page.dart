@@ -14,9 +14,12 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   bool touch = true;
+  int hashtagIndex = 1;
+  final List<String> hashtags = ['핫딜', '추천', '인디게임', '매드무비'];
 
   @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
     return Scaffold(
       body: SafeArea(
         left: false,
@@ -26,25 +29,30 @@ class _HomePageState extends State<HomePage> {
           children: <Widget>[
             Container(
               margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
-              child: const Column(
+              child: Column(
                 children: <Widget>[
-                  GrapperAppbar(
+                  const GrapperAppbar(
                     text: '테스트',
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 25,
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: <Widget>[
-                      GrapperHashtag(text: '핫딜'),
-                      GrapperHashtag(
-                        text: '추천',
-                        isSelected: true,
+                    children: List.generate(
+                      hashtags.length,
+                      (index) => GestureDetector(
+                        onTap: () {
+                          setState(() {
+                            hashtagIndex = index;
+                          });
+                        },
+                        child: GrapperHashtag(
+                          text: hashtags[index],
+                          isSelected: hashtagIndex == index,
+                        ),
                       ),
-                      GrapperHashtag(text: '인디게임'),
-                      GrapperHashtag(text: '매드무비'),
-                    ],
+                    ),
                   ),
                 ],
               ),
