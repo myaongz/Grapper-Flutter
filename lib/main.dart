@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:grapper/views/recommend/recommend_page.dart';
+import 'package:grapper/views/home/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.black,
       ),
       debugShowCheckedModeBanner: false,
-      home: const RecommendPage(),
+      home: const HomePage(),
     );
   }
 }
